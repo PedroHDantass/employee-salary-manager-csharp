@@ -1,0 +1,30 @@
+# Pasta do Visual Studio
+.vs/
+
+# Build e arquivos temporários
+bin/
+obj/
+out/
+
+# Arquivos de usuário e de ambiente
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Configurações do VS Code (opcional manter)
+.vscode/
+
+# Logs
+*.log
+
+# Arquivos de backup
+*.bak
+*.tmp
+
+# Configurações específicas do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Diretórios de pacotes
+packages/
