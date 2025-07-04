@@ -1,4 +1,6 @@
-﻿namespace ListEX
+﻿using System.Globalization;
+
+namespace ListEX
 {
     internal class Employee
     {
@@ -19,5 +21,7 @@
         {
             Salary += Salary * (Salary + (percentage / 100));
         }
+
+       
     }
 }
