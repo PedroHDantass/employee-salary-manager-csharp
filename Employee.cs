@@ -19,7 +19,7 @@ namespace ListEX
 
         public void IncreaseSalary(double percentage)
         {
-            Salary += Salary * (Salary + (percentage / 100));
+            Salary += Salary * ( percentage / 100);
         }
 
        
